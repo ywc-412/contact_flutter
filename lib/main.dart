@@ -17,20 +17,20 @@ class MyApp extends StatelessWidget {
           // body: Text('앱임'),
         ),
         body: Text('안녕'),
-        bottomNavigationBar: BottomAppBar(
-          child: SizedBox(
-            height: 70,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Icon(Icons.message),
-                Icon(Icons.message),
-                Icon(Icons.contact_page),
-              ],
-            )
-          )
-        ),
+        // bottomNavigationBar: BottomAppBar(
+        //   child: SizedBox(
+        //     height: 70,
+        //     child: Row(
+        //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        //       crossAxisAlignment: CrossAxisAlignment.center,
+        //       children: [
+        //         Icon(Icons.message),
+        //         Icon(Icons.message),
+        //         Icon(Icons.contact_page),
+        //       ],
+        //     )
+        //   )
+        // ),
       )
       // Center(
       //     child: Container(width: 50, height: 50, color: Colors.blue)
