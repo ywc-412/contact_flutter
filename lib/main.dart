@@ -16,7 +16,18 @@ class MyApp extends StatelessWidget {
           title: Text('앱임'),
           // body: Text('앱임'),
         ),
-        body: Text('안녕'),
+        body: Align(
+          alignment: Alignment.centerLeft,
+          child: Container(
+            width: 150, height: 50,
+            margin: EdgeInsets.fromLTRB(0, 30, 0, 0),
+            decoration: BoxDecoration(
+              color: Colors.blue,
+              border: Border.all(color: Colors.black)
+            ),
+          ),
+        )
+        // Text('안녕'),
         // bottomNavigationBar: BottomAppBar(
         //   child: SizedBox(
         //     height: 70,
