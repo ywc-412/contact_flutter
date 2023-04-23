@@ -13,20 +13,38 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('앱임'),
+          backgroundColor: Colors.white,
+          title: SizedBox(
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Container(
+                child: Text('금호동3가', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+              ),
+            ),
+          )
           // body: Text('앱임'),
         ),
-        body: Align(
-          alignment: Alignment.centerLeft,
+        body: SizedBox(
           child: Container(
-            width: 150, height: 50,
-            margin: EdgeInsets.fromLTRB(0, 30, 0, 0),
-            decoration: BoxDecoration(
-              color: Colors.blue,
-              border: Border.all(color: Colors.black)
+            margin: EdgeInsets.all(10),
+            child: Container(
+              child: ,
             ),
-          ),
+          )
+          //Icon(Icons.star, color: Colors.red,)
+          //Text('안녕하세요', style: TextStyle(color: Colors.red),),
         )
+        // Align(
+        //   alignment: Alignment.centerLeft,
+        //   child: Container(
+        //     width: 150, height: 50,
+        //     margin: EdgeInsets.fromLTRB(0, 30, 0, 0),
+        //     decoration: BoxDecoration(
+        //       color: Colors.blue,
+        //       border: Border.all(color: Colors.black)
+        //     ),
+        //   ),
+        // )
         // Text('안녕'),
         // bottomNavigationBar: BottomAppBar(
         //   child: SizedBox(
